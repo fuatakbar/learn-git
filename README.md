@@ -50,7 +50,7 @@ When you are working on project, this following command will used often.
 
 If you have github account, you can connect into your online repository on github with this command :
 ```
-git remote add origin https://github.com/userName/Folder-proyek1.git
+git remote add origin https://github.com/username/project.git
 ```
 
 use this command to check your file / folder status :
@@ -70,7 +70,8 @@ After all files / folder have been added into your repository, just check your r
 ```
 git commit -m "Your message / note"
 ```
-Make sure that you write your message, because it useful when you work together with your team or friend.    
+
+<br>Make sure that you write your message, because it useful when you work together with your team or friend.    
 <br>
 After that, if you want to upload your updated repository into your github (online repository) you can use this command :  
 ```
