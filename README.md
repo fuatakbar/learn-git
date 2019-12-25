@@ -1,43 +1,43 @@
 # Git Documentation
 
-***Setelah Installasi Selesai***    
+***After installation has been done, you must write your username and email for git identification***    
 ```
 git config --global user.name "Nama / Username"  
 git config --global user.email fuatakbars@gmail.com
 ```  
 
-Digunakan untuk mengisi informasi identitas pengguna git.  
+It usefull to identify who used git / who was commit. 
 
-***Memeriksa Konfigurasi***
+***Checking Configuration***
 ``` 
 git config --list   
 ```      
-atau
+or
 ```
 git config --global --list
 ```
 
-***Mendefinisikan folder dan file dalam gitignore***  
+***How to define folder or file on .gitignore***  
 
-mendefinisikan folder test dengan semua file didalamnya :
+define 'test' folder with all files inside :
 
 ```
 test/*
 ```
 
-mendefinisikan file index.php :  
+define file spesifically :  
 
 ```
 index.php  
 ```
 
-mendefinisikan semua file yang berextensi .txt :  
+define all file with .txt extension :  
 
 ```
 *.txt
 ```
 
-***Membuat Repositori***
+***How to create repository***
 ```
 git init
 ```
