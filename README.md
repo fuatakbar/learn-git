@@ -67,6 +67,7 @@ Noted :
 - *modified* : you have modified that file.  
 <br>
 After all files / folder have been added into your repository, just check your repository status again. If your file / folder have green color, it means you can commit your file / folder into your repository. Use this command to commit your project :    
+
 ```
 git commit -m "Your message / note"
 ```
@@ -74,9 +75,11 @@ git commit -m "Your message / note"
 Make sure that you write your message, because it useful when you work together with your team or friend.    
 <br>
 After that, if you want to upload your updated repository into your github (online repository) you can use this command :  
+
 ```
 git push -u origin master
 ```
+
 Noted : "master" is your branch, if you want to push into the different branch, you could change that with your branch.  
 
 
